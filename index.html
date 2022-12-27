@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./IMG/327010.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>VIZE FINAL</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <br />
+        <input
+          type="text"
+          id="vize"
+          placeholder="VIZE"
+          autocomplete="off"
+          min="1"
+          max="100"
+        />
+
+        <br />
+        <br />
+        <input
+          type="text"
+          id="final"
+          placeholder="FINAL"
+          autocomplete="off"
+          min="1"
+          max="100"
+        /><br />
+        <br />
+        <button onclick="calculate()">HESAPLA</button>
+      </form>
+      <h2 id="erorr"></h2>
+      <div class="nots">
+        <h1>ORTALAMANIZ :</h1>
+        <h1 id="not1"></h1>
+      </div>
+      <div class="nots">
+        <h1>DURUM :</h1>
+        <h1 id="durum"></h1>
+      </div>
+      <div class="nots">
+        <h1>HARF NOTUNUZ :</h1>
+        <h1 id="level"></h1>
+      </div>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
